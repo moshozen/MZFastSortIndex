@@ -1,0 +1,6 @@
+framework module MZFastSortIndex {
+  umbrella header "MZFastSortIndex-umbrella.h"
+
+  export *
+  module * { export * }
+}
