@@ -11,11 +11,41 @@
 
 @implementation NSArray (SortIndex)
 
-- (void)mz_sortObject:(id)object toBeBetween:(id)before and:(id)after withSortKey:(NSString *)key
+- (void)mz_setSortKey:(NSString *)key onObject:(id)object toLieAtSortedIndex:(NSInteger)sortedIndex
+{
+    NSInteger indexOfObject = [self indexOfObject:object];
+    id before, after;
+    if (indexOfObject != NSNotFound && indexOfObject == sortedIndex) {
+        before = (sortedIndex > 0)? self[sortedIndex - 1] : nil;
+        after = (sortedIndex < self.count - 1)? self[sortedIndex + 1] : nil;
+    } else if (indexOfObject != NSNotFound && indexOfObject < sortedIndex) {
+        before = self[sortedIndex];
+        after = (sortedIndex < self.count - 1)? self[sortedIndex + 1] : nil;
+    } else {
+        before = (sortedIndex > 0)? self[sortedIndex - 1] : nil;
+        after = (sortedIndex < self.count)? self[sortedIndex] : nil;
+    }
+    [self mz_sortObject:object toBeBetween:before and:after withSortKey:key];
+}
+
+- (NSNumber *)mz_valueForKeyToLieAtStartOfSortedArray:(NSString *)key
+{
+    return [self mz_sortObject:nil toBeBetween:nil and:[self firstObject] withSortKey:key];
+}
+
+- (NSNumber *)mz_valueForKeyToLieAtEndOfSortedArray:(NSString *)key
+{
+    return [self mz_sortObject:nil toBeBetween:[self lastObject] and:nil withSortKey:key];
+}
+
+#pragma mark - Private methods
+
+- (NSNumber *)mz_sortObject:(id)object toBeBetween:(id)before and:(id)after withSortKey:(NSString *)key
 {
     NSNumber *index = [NSNumber mz_sortIndexBetween:[before valueForKey:key] and:[after valueForKey:key]];
     if (index != nil) {
         [object setValue:index forKey:key];
+        return index;
     } else {
         // We can't build a new index without shuffling a few other indexes around
         // See if we have room to shuffle forwards
@@ -31,12 +61,14 @@
             long long i = 1;
             long long divisions = toReIndex.count + 2;
             NSArray *objectsToReIndex = [[self objectsAtIndexes:toReIndex] copy];
-            [object setValue:@(startIndex + range * i / divisions) forKey:key];
+            NSNumber *newIndex = @(startIndex + range * i / divisions);
+            [object setValue:newIndex forKey:key];
             for (id reIndexedObject in objectsToReIndex) {
                 if (reIndexedObject != object) {
                     [reIndexedObject setValue:@(startIndex + range * ++i / divisions) forKey:key];
                 }
             }
+            return newIndex;
         } else {
             // Reindex backwards
             toReIndex = [self mz_indexSetForValuesRequiringReIndexFromItem:before forwards:NO withSortKey:key];
@@ -51,26 +83,10 @@
                 }
             }
             [object setValue:@(startIndex + range * i / divisions) forKey:key];
+            return @(startIndex + range * i / divisions);
         }
     }
 }
-
-- (void)mz_sortObject:(id)object toStartOfArrayWithSortKey:(NSString *)key
-{
-    [self mz_sortObject:object toBeBetween:nil and:self.firstObject withSortKey:key];
-}
-
-- (void)mz_sortObject:(id)object toEndOfArrayWithSortKey:(NSString *)key
-{
-    [self mz_sortObject:object toBeBetween:self.lastObject and:nil withSortKey:key];
-}
-
-- (BOOL)mz_isValidlySortedByKey:(NSString *)key
-{
-    return [[self sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:key ascending:YES]]] isEqualToArray:self];
-}
-
-#pragma mark - Private methods
 
 - (NSIndexSet *)mz_indexSetForValuesRequiringReIndexFromItem:(id)item forwards:(BOOL)forward withSortKey:(NSString *)key
 {

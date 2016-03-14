@@ -9,10 +9,8 @@
 
 @interface NSArray (SortIndex)
 
-- (void)mz_sortObject:(id)object toBeBetween:(id)before and:(id)after withSortKey:(NSString *)key;
-- (void)mz_sortObject:(id)object toStartOfArrayWithSortKey:(NSString *)key;
-- (void)mz_sortObject:(id)object toEndOfArrayWithSortKey:(NSString *)key;
-
-- (BOOL)mz_isValidlySortedByKey:(NSString *)key;
+- (void)mz_setSortKey:(NSString *)key onObject:(id)object toLieAtSortedIndex:(NSInteger)sortedIndex;
+- (NSNumber *)mz_valueForKeyToLieAtStartOfSortedArray:(NSString *)key;
+- (NSNumber *)mz_valueForKeyToLieAtEndOfSortedArray:(NSString *)key;
 
 @end
