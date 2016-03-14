@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/MZFastSortIndex.svg?style=flat)](http://cocoapods.org/pods/MZFastSortIndex)
 [![Platform](https://img.shields.io/cocoapods/p/MZFastSortIndex.svg?style=flat)](http://cocoapods.org/pods/MZFastSortIndex)
 
-## Usage
+## Background
 
 `MZFastSortIndex` allows you to sort and reorder objects in an unordered collection
 in a performant way, using a single `NSNumber` field to store sort order. To do this,
@@ -43,18 +43,55 @@ At read time, all that's needed is to sort your collection as you normally would
 by a Core Data store, you can then have Core Data index your sort field for 
 super-fast reading courtesy of SQLite.
 
+## Usage
+
+There are two principal use cases: inserting new objects into a collection, and
+moving objects around within a collection.
+
+### Inserting Into a Collection
+
+Typically, this is done by first setting the new object's index value and then inserting
+it into the collection. This ensures that the state of the collection will always
+be valid. 
+
+```
+[newObject setValue:[array mz_valueForKeyToLieAtEndOfSortedArray:@"index"] forKey:@"index"];
+[array addObject:newObject];
+```
+
+Note that for unordered collections (such as in Core Data), you still need to 
+call `mz_valueForKeyToLieAtEndOfSortedArray:` on a sorted array. This is because
+a new insertion may result in any number of the collection elements needing to 
+be re-indexed themselves, and this operation depends on being able to access the
+elements in sorted order.
+
+### Moving Object Within a Collection
+
+In this case (typically driven by a user dragging the relevant object within a collection
+or table view), the object is already a member of the corresponding collection, 
+and reindexing is a simple matter of a single call:
+
+```
+[array mz_setSortKey:@"index" onObject:object toLieAtSortedIndex:newIndex];
+```
+
+Note that this does not re-order the array (in keeping with arrays generally being
+immutable). In the case of such a collection being dynamically updated (for example,
+by `NSFetchedResultsController` or `MZRelationalCollectionController`, the controller's
+KVO calls are responsible for resorting the array and updating the UI as needed. 
+
 ## To Be Done
 
 While `MZFastSortIndex` is suitable for use in the common case, there are a few
 things planned for its future:
 
-* [ ] Remove NSObject allocation from inside the tight loops. There's some
+* Remove NSObject allocation from inside the tight loops. There's some
   simple numeric stuff that we do that's probably better expressed as standard
   scalars
-* [ ] Explore behaviour when full. We currently use signed int32's as the range
+* Explore behaviour when full. We currently use signed int32's as the range
   of possible indexes. There is no explicit test case to cover index exhaustion
   and there should be
-* [ ] Allow for (optional) 64 bit indexes. Currently we (lazily) rely on being
+* Allow for (optional) 64 bit indexes. Currently we (lazily) rely on being
   able to perform 32 bit math with `long long`s to avoid overflow. We need to
   tighten up this math so we can provide the option of 64 bit indexes.
 
