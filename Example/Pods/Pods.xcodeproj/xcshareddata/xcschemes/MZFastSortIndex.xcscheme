@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '80982FC0B6200818719CFCD2'
+               BlueprintIdentifier = '839C0405D3E928B690136673'
                BlueprintName = 'MZFastSortIndex'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'MZFastSortIndex.framework'>
