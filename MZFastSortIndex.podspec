@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "MZFastSortIndex"
-  s.version          = "0.1.1"
+  s.version          = "0.2.0"
   s.summary          = "Performant and powerful sort index building for Cocoa collections"
 
   s.description      = <<-DESC
