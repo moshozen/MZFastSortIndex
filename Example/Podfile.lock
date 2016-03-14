@@ -1,5 +1,5 @@
 PODS:
-  - MZFastSortIndex (0.1.0)
+  - MZFastSortIndex (0.1.1)
 
 DEPENDENCIES:
   - MZFastSortIndex (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MZFastSortIndex: b51a500d41f3c09fd8a50448be986449b028036f
+  MZFastSortIndex: 18fa8cdb6320c51c3f54ae497f20d4ac196945c7
 
 COCOAPODS: 0.39.0

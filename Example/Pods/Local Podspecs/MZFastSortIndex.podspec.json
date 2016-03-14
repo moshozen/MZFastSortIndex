@@ -1,16 +1,16 @@
 {
   "name": "MZFastSortIndex",
-  "version": "0.1.0",
-  "summary": "A short description of MZFastSortIndex.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MZFastSortIndex",
+  "version": "0.1.1",
+  "summary": "Performant and powerful sort index building for Cocoa collections",
+  "description": "MZFastSortIndex provides performant and powerful sort index building for Cocoa collections.",
+  "homepage": "https://github.com/moshozen/MZFastSortIndex",
   "license": "MIT",
   "authors": {
     "Mat Trudel": "mat@geeky.net"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MZFastSortIndex.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/moshozen/MZFastSortIndex.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

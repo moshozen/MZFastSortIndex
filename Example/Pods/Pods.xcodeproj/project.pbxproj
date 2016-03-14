@@ -7,33 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01696787D16C1F85502150A402E958E8 /* NSArray+SortIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E783ADD6F8829FA5D84428619B40FA /* NSArray+SortIndex.m */; };
-		0ACB6E9AC2D31961DE3474249C038611 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		00098FD816420642E63FF813E2A9982D /* NSArray+SortIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F80A6B65BCAE7E303C1CFD458FEC49 /* NSArray+SortIndex.m */; };
 		1BAF2BBEA8A1899AB126D5C3CF31E4ED /* Pods-MZFastSortIndex_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41535F41E772FCEBB4BBE73B7BE3B86C /* Pods-MZFastSortIndex_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		346B87DE134316D1B9AB43B1B78C772C /* MZFastSortIndex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 726324AB3446CB1B024D19D2093EFD05 /* MZFastSortIndex-dummy.m */; };
-		3932D681B49202E00532F24182DE24AE /* NSArray+SortIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF4F95020026B16CFFBA56721AA7E59 /* NSArray+SortIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7418237BAD4DE600D10B63FA7D764175 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C35B72523F3A10062C41308DD3FA52DB /* ReplaceMe.m */; };
-		A05DBC56F118AB1687593AADA07897E8 /* NSNumber+SortIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B338BA2AFE005DC25B7D1E776776BC /* NSNumber+SortIndex.m */; };
-		A3E787603B44F090B682F7380F3D2786 /* MZFastSortIndex.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B6DD083718EF31B4D42629C7F9CD89D8 /* MZFastSortIndex.bundle */; };
+		2632FBBC97E7573F422B826394743C8D /* MZFastSortIndex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 726324AB3446CB1B024D19D2093EFD05 /* MZFastSortIndex-dummy.m */; };
+		55C9B0BDCDCFF83E9896CEBC77DDC1B5 /* MZFastSortIndex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B97CE9B3D54F53C666449AEF8006AE /* MZFastSortIndex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69E20AF65C250A96594310D8B128E633 /* MZFastSortIndex.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B6DD083718EF31B4D42629C7F9CD89D8 /* MZFastSortIndex.bundle */; };
+		81C56172B5C8484EA31C61BBF42C6A32 /* NSArray+SortIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = BE83F5B24A8A1B05E745519594DAF731 /* NSArray+SortIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6333597ED55D42FF4F923224D558BBE /* Pods-MZFastSortIndex_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 806CC47FC8FC2212D1BC8B339665B08E /* Pods-MZFastSortIndex_Tests-dummy.m */; };
-		ADAF2747F8E72B37F690177FCAD0AF3E /* MZFastSortIndex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B97CE9B3D54F53C666449AEF8006AE /* MZFastSortIndex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA51579367DDE5E29CED2BABCB179D75 /* NSNumber+SortIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E02AB961B4F3180463E230E40F60C0B /* NSNumber+SortIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6D0EEEB5258DA7208786DA864B775AA /* NSNumber+SortIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D626720CC16344403F76C3B5B978E67 /* NSNumber+SortIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D63677063E4737C909F26AB490380025 /* NSNumber+SortIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 94360FF9E71478F44AF0A8E341B82F7D /* NSNumber+SortIndex.m */; };
 		F4B9028D05A2DA1FF72D507A9534C0ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F91A3C51B530B8D5A338F3AC2FCEB19B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4B39FED5F3279D563F9AD7D1DA809BFE /* PBXContainerItemProxy */ = {
+		E15178ABB6F42C0CFDD9EE0CA9AA721E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B270A2886DCDFB7E3CEE1960E7D39E86;
+			remoteGlobalIDString = 060614A6F68A8B3C7A9F09A018F48B73;
 			remoteInfo = "MZFastSortIndex-MZFastSortIndex";
 		};
 		EF5238EB240080953B0C57700C2EC173 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 265307EFA888230EC22A67F8889871DD;
+			remoteGlobalIDString = 4235E234FD4A8B8B56B0C43F694A4FED;
 			remoteInfo = MZFastSortIndex;
 		};
 /* End PBXContainerItemProxy section */
@@ -41,25 +40,24 @@
 /* Begin PBXFileReference section */
 		0E498CDF360947CBE08BD23DEC0B0D3C /* Pods-MZFastSortIndex_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZFastSortIndex_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2B4AE9825623B0A976185846B69D6097 /* Pods-MZFastSortIndex_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZFastSortIndex_Tests-resources.sh"; sourceTree = "<group>"; };
-		35E783ADD6F8829FA5D84428619B40FA /* NSArray+SortIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SortIndex.m"; sourceTree = "<group>"; };
 		3770045AF7A501A55390D7FD4D44191C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B5BAEA32EC964C67F6731C2AB9A79D1 /* Pods-MZFastSortIndex_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MZFastSortIndex_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		41535F41E772FCEBB4BBE73B7BE3B86C /* Pods-MZFastSortIndex_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MZFastSortIndex_Tests-umbrella.h"; sourceTree = "<group>"; };
 		52F891CB2E8F83A1E0627EDEBBADEC88 /* Pods-MZFastSortIndex_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MZFastSortIndex_Tests.modulemap"; sourceTree = "<group>"; };
 		6422FE5C2C245B8A4663CE68B8EDF299 /* Pods-MZFastSortIndex_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZFastSortIndex_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6E02AB961B4F3180463E230E40F60C0B /* NSNumber+SortIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+SortIndex.h"; sourceTree = "<group>"; };
 		726324AB3446CB1B024D19D2093EFD05 /* MZFastSortIndex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZFastSortIndex-dummy.m"; sourceTree = "<group>"; };
-		7DF4F95020026B16CFFBA56721AA7E59 /* NSArray+SortIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+SortIndex.h"; sourceTree = "<group>"; };
+		7D626720CC16344403F76C3B5B978E67 /* NSNumber+SortIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+SortIndex.h"; sourceTree = "<group>"; };
 		806CC47FC8FC2212D1BC8B339665B08E /* Pods-MZFastSortIndex_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MZFastSortIndex_Tests-dummy.m"; sourceTree = "<group>"; };
+		82F80A6B65BCAE7E303C1CFD458FEC49 /* NSArray+SortIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SortIndex.m"; sourceTree = "<group>"; };
+		94360FF9E71478F44AF0A8E341B82F7D /* NSNumber+SortIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+SortIndex.m"; sourceTree = "<group>"; };
 		ACB2F857D669B98DBC726489E27AFD23 /* MZFastSortIndex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MZFastSortIndex.modulemap; sourceTree = "<group>"; };
 		B5B97CE9B3D54F53C666449AEF8006AE /* MZFastSortIndex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZFastSortIndex-umbrella.h"; sourceTree = "<group>"; };
 		B6DD083718EF31B4D42629C7F9CD89D8 /* MZFastSortIndex.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZFastSortIndex.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C35B72523F3A10062C41308DD3FA52DB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		BE83F5B24A8A1B05E745519594DAF731 /* NSArray+SortIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+SortIndex.h"; sourceTree = "<group>"; };
 		C971B6E6CDA4EA20F6DAE79021B398ED /* MZFastSortIndex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZFastSortIndex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F93C1883EF0B66A8DEE8345D5FBEF1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4B338BA2AFE005DC25B7D1E776776BC /* NSNumber+SortIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+SortIndex.m"; sourceTree = "<group>"; };
 		D95A209A2F9ED7E417717FDC3D57880A /* Pods-MZFastSortIndex_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZFastSortIndex_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E0E3AB9259DF18595AAE65D5E3C994A6 /* MZFastSortIndex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZFastSortIndex.xcconfig; sourceTree = "<group>"; };
 		E29D512311D99E52F6DCA3671A80E326 /* Pods-MZFastSortIndex_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZFastSortIndex_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -68,18 +66,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		64F4C4BCC0BE1765E3DBB6909D8C3460 /* Frameworks */ = {
+		6EAD1A4D1B0D72A64E66D5DDC0399D5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ACB6E9AC2D31961DE3474249C038611 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5330760865E4620435EF9894A53B867 /* Frameworks */ = {
+		8BA2B3D9021117C78E8AB3B89D7166BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F91A3C51B530B8D5A338F3AC2FCEB19B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +104,25 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/MZFastSortIndex";
+			sourceTree = "<group>";
+		};
+		1C63BBE2CFAD2F745B069456FB8BC345 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4757C2CABB0B4DAE3C048C1393552BB4 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		4757C2CABB0B4DAE3C048C1393552BB4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BE83F5B24A8A1B05E745519594DAF731 /* NSArray+SortIndex.h */,
+				82F80A6B65BCAE7E303C1CFD458FEC49 /* NSArray+SortIndex.m */,
+				7D626720CC16344403F76C3B5B978E67 /* NSNumber+SortIndex.h */,
+				94360FF9E71478F44AF0A8E341B82F7D /* NSNumber+SortIndex.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		64B439F7C438E2D29D4E8575FC7AEA28 /* Targets Support Files */ = {
@@ -145,18 +162,6 @@
 			path = "Target Support Files/Pods-MZFastSortIndex_Tests";
 			sourceTree = "<group>";
 		};
-		9A960C40C64BC804514EA74389E72807 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				7DF4F95020026B16CFFBA56721AA7E59 /* NSArray+SortIndex.h */,
-				35E783ADD6F8829FA5D84428619B40FA /* NSArray+SortIndex.m */,
-				6E02AB961B4F3180463E230E40F60C0B /* NSNumber+SortIndex.h */,
-				D4B338BA2AFE005DC25B7D1E776776BC /* NSNumber+SortIndex.m */,
-				C35B72523F3A10062C41308DD3FA52DB /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,31 +199,23 @@
 		E6B42691619585BDCABAC4EA695C1D3D /* MZFastSortIndex */ = {
 			isa = PBXGroup;
 			children = (
-				F8BCAAB7B0F8F99D092FDB38C256B9A4 /* Pod */,
+				1C63BBE2CFAD2F745B069456FB8BC345 /* Pod */,
 				0D1EA2D31E0A354849CAEE9C48ACB79C /* Support Files */,
 			);
 			name = MZFastSortIndex;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		F8BCAAB7B0F8F99D092FDB38C256B9A4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9A960C40C64BC804514EA74389E72807 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8211736A2A3C7E8D67F45C6EF21CA7CD /* Headers */ = {
+		7D43DC81FA37FC205778623BF5AE0EAE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADAF2747F8E72B37F690177FCAD0AF3E /* MZFastSortIndex-umbrella.h in Headers */,
-				3932D681B49202E00532F24182DE24AE /* NSArray+SortIndex.h in Headers */,
-				EA51579367DDE5E29CED2BABCB179D75 /* NSNumber+SortIndex.h in Headers */,
+				55C9B0BDCDCFF83E9896CEBC77DDC1B5 /* MZFastSortIndex-umbrella.h in Headers */,
+				81C56172B5C8484EA31C61BBF42C6A32 /* NSArray+SortIndex.h in Headers */,
+				B6D0EEEB5258DA7208786DA864B775AA /* NSNumber+SortIndex.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,19 +230,36 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		265307EFA888230EC22A67F8889871DD /* MZFastSortIndex */ = {
+		060614A6F68A8B3C7A9F09A018F48B73 /* MZFastSortIndex-MZFastSortIndex */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E076D19FACFC66E23C0AA5352DBD915D /* Build configuration list for PBXNativeTarget "MZFastSortIndex" */;
+			buildConfigurationList = 19917E1486C733491DAD568CD13B2090 /* Build configuration list for PBXNativeTarget "MZFastSortIndex-MZFastSortIndex" */;
 			buildPhases = (
-				395341AE401690A2A1AE3EC9E3B58D84 /* Sources */,
-				64F4C4BCC0BE1765E3DBB6909D8C3460 /* Frameworks */,
-				BCD4125CBA8B14F06E9ECE3EA49E865A /* Resources */,
-				8211736A2A3C7E8D67F45C6EF21CA7CD /* Headers */,
+				78A39C3A4C1E60C8BBEB2D12D08FE804 /* Sources */,
+				6EAD1A4D1B0D72A64E66D5DDC0399D5B /* Frameworks */,
+				982EB9193B1F78FEE3EC2A212D5870EE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				106C856E5DDE95F6171EA93A06ED5032 /* PBXTargetDependency */,
+			);
+			name = "MZFastSortIndex-MZFastSortIndex";
+			productName = "MZFastSortIndex-MZFastSortIndex";
+			productReference = B6DD083718EF31B4D42629C7F9CD89D8 /* MZFastSortIndex.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4235E234FD4A8B8B56B0C43F694A4FED /* MZFastSortIndex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4581D330C31E61FFA302667217825864 /* Build configuration list for PBXNativeTarget "MZFastSortIndex" */;
+			buildPhases = (
+				7D9CA7DA3A79C46F848C4304CD6A358C /* Sources */,
+				8BA2B3D9021117C78E8AB3B89D7166BC /* Frameworks */,
+				5323C868F32526D9F3CADEDA62D21929 /* Resources */,
+				7D43DC81FA37FC205778623BF5AE0EAE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				511AB7D714F0E7C622EB6437013B9C1F /* PBXTargetDependency */,
 			);
 			name = MZFastSortIndex;
 			productName = MZFastSortIndex;
@@ -270,23 +284,6 @@
 			productReference = EA31B7E17A883C37B6E68406CB836E8F /* Pods_MZFastSortIndex_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B270A2886DCDFB7E3CEE1960E7D39E86 /* MZFastSortIndex-MZFastSortIndex */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C52717BFC029C7A90469ECAFABCA8AE0 /* Build configuration list for PBXNativeTarget "MZFastSortIndex-MZFastSortIndex" */;
-			buildPhases = (
-				C4642AE2DF5B90549D2DFEF149A995FD /* Sources */,
-				D5330760865E4620435EF9894A53B867 /* Frameworks */,
-				FF696DE7D8BD1AE16CCD69B33218350C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "MZFastSortIndex-MZFastSortIndex";
-			productName = "MZFastSortIndex-MZFastSortIndex";
-			productReference = B6DD083718EF31B4D42629C7F9CD89D8 /* MZFastSortIndex.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -308,23 +305,23 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				265307EFA888230EC22A67F8889871DD /* MZFastSortIndex */,
-				B270A2886DCDFB7E3CEE1960E7D39E86 /* MZFastSortIndex-MZFastSortIndex */,
+				4235E234FD4A8B8B56B0C43F694A4FED /* MZFastSortIndex */,
+				060614A6F68A8B3C7A9F09A018F48B73 /* MZFastSortIndex-MZFastSortIndex */,
 				8C5D43E09D7ABBCD4918E515B7F4B690 /* Pods-MZFastSortIndex_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BCD4125CBA8B14F06E9ECE3EA49E865A /* Resources */ = {
+		5323C868F32526D9F3CADEDA62D21929 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3E787603B44F090B682F7380F3D2786 /* MZFastSortIndex.bundle in Resources */,
+				69E20AF65C250A96594310D8B128E633 /* MZFastSortIndex.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF696DE7D8BD1AE16CCD69B33218350C /* Resources */ = {
+		982EB9193B1F78FEE3EC2A212D5870EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -334,14 +331,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		395341AE401690A2A1AE3EC9E3B58D84 /* Sources */ = {
+		78A39C3A4C1E60C8BBEB2D12D08FE804 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				346B87DE134316D1B9AB43B1B78C772C /* MZFastSortIndex-dummy.m in Sources */,
-				01696787D16C1F85502150A402E958E8 /* NSArray+SortIndex.m in Sources */,
-				A05DBC56F118AB1687593AADA07897E8 /* NSNumber+SortIndex.m in Sources */,
-				7418237BAD4DE600D10B63FA7D764175 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D9CA7DA3A79C46F848C4304CD6A358C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2632FBBC97E7573F422B826394743C8D /* MZFastSortIndex-dummy.m in Sources */,
+				00098FD816420642E63FF813E2A9982D /* NSArray+SortIndex.m in Sources */,
+				D63677063E4737C909F26AB490380025 /* NSNumber+SortIndex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,43 +356,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4642AE2DF5B90549D2DFEF149A995FD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		106C856E5DDE95F6171EA93A06ED5032 /* PBXTargetDependency */ = {
+		511AB7D714F0E7C622EB6437013B9C1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "MZFastSortIndex-MZFastSortIndex";
-			target = B270A2886DCDFB7E3CEE1960E7D39E86 /* MZFastSortIndex-MZFastSortIndex */;
-			targetProxy = 4B39FED5F3279D563F9AD7D1DA809BFE /* PBXContainerItemProxy */;
+			target = 060614A6F68A8B3C7A9F09A018F48B73 /* MZFastSortIndex-MZFastSortIndex */;
+			targetProxy = E15178ABB6F42C0CFDD9EE0CA9AA721E /* PBXContainerItemProxy */;
 		};
 		AA62BF4F55794E800D508B3B8232B1F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MZFastSortIndex;
-			target = 265307EFA888230EC22A67F8889871DD /* MZFastSortIndex */;
+			target = 4235E234FD4A8B8B56B0C43F694A4FED /* MZFastSortIndex */;
 			targetProxy = EF5238EB240080953B0C57700C2EC173 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		063FAFDA04B8C1896E4777470DEFD264 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0E3AB9259DF18595AAE65D5E3C994A6 /* MZFastSortIndex.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MZFastSortIndex;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		15484A814FD89CD3B6971B251332C628 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6422FE5C2C245B8A4663CE68B8EDF299 /* Pods-MZFastSortIndex_Tests.release.xcconfig */;
@@ -421,35 +405,7 @@
 			};
 			name = Release;
 		};
-		40284110E7181B634EBC35338F0B174C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0E3AB9259DF18595AAE65D5E3C994A6 /* MZFastSortIndex.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MZFastSortIndex/MZFastSortIndex-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MZFastSortIndex/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MZFastSortIndex/MZFastSortIndex.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = MZFastSortIndex;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		797E2C8EDA3341CDE5C610D836949C19 /* Debug */ = {
+		1E4089D538AF4F2A44CBAAD39EDAAE8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E0E3AB9259DF18595AAE65D5E3C994A6 /* MZFastSortIndex.xcconfig */;
 			buildSettings = {
@@ -476,6 +432,58 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		45227E94275206AE9306E0545387CC1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0E3AB9259DF18595AAE65D5E3C994A6 /* MZFastSortIndex.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MZFastSortIndex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		47C928D491833D2F4A1AA2C6FB882D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0E3AB9259DF18595AAE65D5E3C994A6 /* MZFastSortIndex.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MZFastSortIndex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		81946CC501656F6660170A987CB8D79E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0E3AB9259DF18595AAE65D5E3C994A6 /* MZFastSortIndex.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MZFastSortIndex/MZFastSortIndex-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MZFastSortIndex/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MZFastSortIndex/MZFastSortIndex.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = MZFastSortIndex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -548,18 +556,6 @@
 			};
 			name = Debug;
 		};
-		F22FD5C5D7CB49D2D25BCEF0909F79CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0E3AB9259DF18595AAE65D5E3C994A6 /* MZFastSortIndex.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MZFastSortIndex;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -597,6 +593,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		19917E1486C733491DAD568CD13B2090 /* Build configuration list for PBXNativeTarget "MZFastSortIndex-MZFastSortIndex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45227E94275206AE9306E0545387CC1C /* Debug */,
+				47C928D491833D2F4A1AA2C6FB882D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		209A91261439499B789DB914A31BCA01 /* Build configuration list for PBXNativeTarget "Pods-MZFastSortIndex_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -615,20 +620,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C52717BFC029C7A90469ECAFABCA8AE0 /* Build configuration list for PBXNativeTarget "MZFastSortIndex-MZFastSortIndex" */ = {
+		4581D330C31E61FFA302667217825864 /* Build configuration list for PBXNativeTarget "MZFastSortIndex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				063FAFDA04B8C1896E4777470DEFD264 /* Debug */,
-				F22FD5C5D7CB49D2D25BCEF0909F79CB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E076D19FACFC66E23C0AA5352DBD915D /* Build configuration list for PBXNativeTarget "MZFastSortIndex" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				797E2C8EDA3341CDE5C610D836949C19 /* Debug */,
-				40284110E7181B634EBC35338F0B174C /* Release */,
+				1E4089D538AF4F2A44CBAAD39EDAAE8D /* Debug */,
+				81946CC501656F6660170A987CB8D79E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

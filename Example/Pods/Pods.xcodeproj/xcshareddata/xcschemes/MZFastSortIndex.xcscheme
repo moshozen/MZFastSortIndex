@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "265307EFA888230EC22A67F8889871DD"
+               BlueprintIdentifier = "4235E234FD4A8B8B56B0C43F694A4FED"
                BuildableName = "MZFastSortIndex.framework"
                BlueprintName = "MZFastSortIndex"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "265307EFA888230EC22A67F8889871DD"
+            BlueprintIdentifier = "4235E234FD4A8B8B56B0C43F694A4FED"
             BuildableName = "MZFastSortIndex.framework"
             BlueprintName = "MZFastSortIndex"
             ReferencedContainer = "container:Pods.xcodeproj">
