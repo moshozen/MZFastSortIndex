@@ -1,6 +1,6 @@
 {
   "name": "MZFastSortIndex",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "summary": "Performant and powerful sort index building for Cocoa collections",
   "description": "MZFastSortIndex provides performant and powerful sort index building for Cocoa collections.",
   "homepage": "https://github.com/moshozen/MZFastSortIndex",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/moshozen/MZFastSortIndex.git",
-    "tag": "0.1.1"
+    "tag": "0.2.1"
   },
   "platforms": {
     "ios": "8.0"
